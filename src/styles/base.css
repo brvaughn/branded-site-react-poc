@@ -1,0 +1,29 @@
+
+
+html, body { background-color: #552448; font: 14px "Helvetica"; margin: 0; height: 100%; }
+.spinner-container { padding-left: calc(50% - 25px);}
+.loading-spinner { width: 50px; height: 50px; text-align: center; display: block; }
+#page-container { max-width: 1120px; width: 100%; clear: both; margin: 0px auto; }
+header { width: 100%; overflow: hidden; }
+#cnbc-buffett-video-iframe { max-height: 630px; width: 100%; height: calc(100vw * 9/16); overflow-y: hidden; border: 0; }
+nav, #navigation-items, #navigation-branding { display: inline-block; background-color: #333}
+nav { width: 100%; padding: 10px; }
+#navigation-branding { color: #fefefe; float: left; font-size: 18px;}
+#navigation-branding div { padding: 3px; }
+#navigation-items { margin: 0; padding: 0 5px 0 0; overflow: hidden; }
+#navigation { list-style: none; float: right; margin-top: 8px; }
+.navigation-item, .navigation-item-right { display: inline; }
+.navigation-item { float: left; cursor: pointer; }
+.navigation-item-right { float: right; }
+.navigation-item-right input { margin: 12px 16px; }
+.navigation-item a { display: block; padding: 12px 16px; color: #fff; text-align: center; text-decoration: none; }
+.navigation-item a:hover { background-color: #fefefe; color: #333; }
+#cnbc-buffett-content-container { min-height: 400px; }
+#cnbc-buffett-chapter-list-side-nav-container, #cnbc-buffett-transcript-container { display: inline-block; }
+#cnbc-buffett-chapter-list-side-nav-container { width: 19%; background-color: rgba(225,225,225,0.8); height: 100%; float: left; }
+#cnbc-buffett-chapter-list-side-nav-container ul { list-style: none; margin-top: 5px; padding: 5px; }
+.cnbc-buffett-quick-nav-title { font-size: 18px; text-align: center; }
+.cnbc-buffett-chapter-list-item { padding: 5px 0 0 15px; cursor: pointer; }
+#cnbc-buffett-transcript-container { padding: 20px; float: right; width: 75%; background-color: rgba(255,255,255,0.8); }
+#cnbc-buffett-transcript-container .caption-container:hover { background-color: rgba(255,255,255,0.6); cursor: pointer; }
+#cnbc-buffett-transcript-container .buffett-bank-currently-playing { background-color: rgb(255, 253, 147); }
